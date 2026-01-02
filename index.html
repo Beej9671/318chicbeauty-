@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>318 Chic Beauty</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#fff7fb; color:#1a1a1a; }
+    header { background:#ff4fa3; color:#fff; padding:26px 18px; text-align:center; }
+    header h1 { margin:0; font-size:34px; letter-spacing:.5px; }
+    header p { margin:10px 0 0; font-size:15px; opacity:.95; }
+
+    .wrap { max-width:980px; margin:0 auto; padding:18px; }
+    .card { background:#fff; border-radius:18px; padding:18px; box-shadow:0 6px 20px rgba(0,0,0,.08); margin-top:16px; }
+
+    .hero { display:grid; gap:14px; }
+    .hero h2 { margin:0; font-size:24px; }
+    .hero p { margin:0; line-height:1.5; }
+
+    .btns { display:flex; gap:12px; flex-wrap:wrap; margin-top:6px; justify-content:center; }
+    .btn { display:inline-block; padding:12px 16px; border-radius:12px; font-weight:bold; text-decoration:none; }
+    .btn.primary { background:#ff4fa3; color:#fff; }
+    .btn.dark { background:#111; color:#fff; }
+
+    .socials { display:flex; gap:12px; justify-content:center; margin-top:12px; }
+    .socials a { text-decoration:none; padding:10px 14px; border-radius:10px; background:#ffd6ea; color:#222; font-weight:bold; }
+
+    .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); gap:14px; margin-top:14px; }
+    .product h3 { margin:0 0 8px; }
+    .product p { margin:0; line-height:1.45; }
+    .tag { display:inline-block; margin-top:10px; font-size:12px; padding:6px 10px; border-radius:999px; background:#ffd6ea; font-weight:bold; }
+
+    .split { display:grid; grid-template-columns:1fr; gap:14px; }
+    @media (min-width: 760px){ .split { grid-template-columns:1.2fr .8fr; } }
+
+    .small { font-size:13px; opacity:.8; }
+    footer { text-align:center; padding:20px; margin-top:18px; background:#ffd6ea; }
+    hr { border:none; border-top:1px solid #eee; margin:16px 0; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>318 Chic Beauty</h1>
+    <p>Luxury hair • Beauty essentials • Digital guides</p>
+  </header>
+
+  <main class="wrap">
+
+    <!-- HERO -->
+    <section class="card hero">
+      <h2>Welcome 💗</h2>
+      <p>
+        318 Chic Beauty is your go-to for beauty + boss-up resources — from luxury hair vendors
+        lists to beginner-friendly digital guides you can use right on your phone.
+      </p>
+      <div class="btns">
+        <a class="btn primary" href="https://stan.store/Ms318chic" target="_blank">Shop the Store</a>
+      </div>
+
+      <div class="socials">
+        <a href="https://www.tiktok.com/@318chicbeauty" target="_blank">TikTok</a>
+        <a href="https://www.instagram.com/318chicbeauty" target="_blank">Instagram</a>
+      </div>
+    </section>
+
+    <!-- FEATURED PRODUCTS -->
+    <section class="card">
+      <h2 style="margin:0;">Featured</h2>
+      <div class="grid">
+
+        <div class="product card" style="margin-top:14px;">
+          <h3>Human Hair Vendors List</h3>
+          <p>Bundles + wigs vendors to help you start or level up your beauty business.</p>
+          <span class="tag">Instant Download</span>
+        </div>
+
+        <div class="product card" style="margin-top:14px;">
+          <h3>Digital Marketing Made Simple</h3>
+          <p>Beginner guide to building income online using your phone + social media.</p>
+          <span class="tag">Beginner-Friendly</span>
+        </div>
+
+        <div class="product card" style="margin-top:14px;">
+          <h3>Wigs & Bundles</h3>
+          <p>Luxury hair drops + specials coming soon. Follow for updates.</p>
+          <span class="tag">Coming Soon</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT + TRUST -->
+    <section class="split">
+      <div class="card">
+        <h2 style="margin:0;">About</h2>
+        <p style="line-height:1.5;">
+          318 Chic Beauty was created to help you look good, feel confident, and build income
+          through beauty + digital products. Everything is curated with a luxe-but-simple vibe.
+        </p>
+        <hr />
+        <p class="small"><strong>Brand colors:</strong> Pink • Gold • Beige</p>
+      </div>
+
+      <div class="card">
+        <h2 style="margin:0;">Quick Info</h2>
+        <p><strong>Business:</strong> 318 Chic Beauty LLC</p>
+        <p><strong>Owner:</strong> Bee-J Jenkins</p>
+        <p class="small">Add your social links here anytime.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="card">
+      <h2 style="margin:0;">Contact</h2>
+      <p style="margin:10px 0 0;"><strong>Email:</strong> beej.9671@gmail.com</p>
+      <p style="margin:8px 0 0;"><strong>Phone:</strong> 318-977-2281</p>
+      <p class="small" style="margin-top:10px;">For order questions, include your name + order number.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="small">© 2026 318 Chic Beauty LLC. All Rights Reserved.</div>
+  </footer>
+
+</body>
+</html>
